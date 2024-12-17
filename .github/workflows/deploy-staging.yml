@@ -1,9 +1,11 @@
-# Given template by skills-deploy-to-azure
+
 name: Deploy to staging
+
 
 on:
   pull_request:
     types: [labeled]
+
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
